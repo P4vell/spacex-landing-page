@@ -1,0 +1,26 @@
+footer {
+  padding: 30px 0;
+  font-size: 12px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+footer span {
+  font-family: D-DIN-Regular;
+  display: block;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #8b939b;
+}
