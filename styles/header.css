@@ -5,6 +5,16 @@ header {
   top: 0;
   left: 0;
   z-index: 10;
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+header.background {
+  background-color: #000;
+}
+
+header.hidden {
+  height: 0;
 }
 
 .header__inner {
