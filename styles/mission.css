@@ -8,8 +8,17 @@
   position: relative;
 }
 
-.mission:nth-child(1) {
+/* .mission:nth-child(1) {
   background-image: url("/images/starship.jpg");
+} */
+
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 .mission:nth-child(2) {
@@ -17,10 +26,6 @@
 }
 
 .mission:nth-child(3) {
-  background-image: url("/images/starlink2-mobile.jpg");
-}
-
-.mission:nth-child(4) {
   background-image: url("/images/mpower-mobile.jpg");
 }
 
@@ -38,7 +43,7 @@
 .mission-content__inner {
   max-width: 460px;
   position: absolute;
-  left: 45px;
+  left: 20px;
   bottom: 15%;
   transition: all 0.5s linear;
 }
@@ -56,8 +61,6 @@
 
 .mission-content__link {
   display: inline-block;
-  color: #fff;
-  text-decoration: none;
   border: 2px solid #fff;
   padding: 15px 35px;
   margin-top: 30px;
@@ -106,10 +109,6 @@
   }
 
   .mission:nth-child(3) {
-    background-image: url("/images/starlink2.jpg");
-  }
-
-  .mission:nth-child(4) {
     background-image: url("/images/mpower.jpg");
   }
 }
